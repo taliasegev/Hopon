@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8E62AD15F098BF006A54B3 /* DataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E62AC15F098BF006A54B3 /* DataLayer.m */; };
+		3BAF03A915EE71140014F6A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03A815EE71140014F6A6 /* UIKit.framework */; };
+		3BAF03AB15EE71140014F6A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03AA15EE71140014F6A6 /* Foundation.framework */; };
+		3BAF03AD15EE71140014F6A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03AC15EE71140014F6A6 /* CoreGraphics.framework */; };
+		3BAF03B315EE71140014F6A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03B115EE71140014F6A6 /* InfoPlist.strings */; };
+		3BAF03B515EE71140014F6A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03B415EE71140014F6A6 /* main.m */; };
+		3BAF03B915EE71140014F6A6 /* HoponAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03B815EE71140014F6A6 /* HoponAppDelegate.m */; };
+		3BAF03BC15EE71140014F6A6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03BA15EE71140014F6A6 /* MainStoryboard.storyboard */; };
+		3BAF03D415EE792D0014F6A6 /* HoponVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03D315EE792D0014F6A6 /* HoponVC.m */; };
+		3BAF03D715EE79590014F6A6 /* YourLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03D615EE79590014F6A6 /* YourLocationVC.m */; };
+		3BAF03DA15EE79720014F6A6 /* DestinationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03D915EE79720014F6A6 /* DestinationVC.m */; };
+		3BAF03DD15EE799B0014F6A6 /* BusListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03DC15EE799B0014F6A6 /* BusListVC.m */; };
+		3BAF03E015EE79C30014F6A6 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03DF15EE79C30014F6A6 /* AboutVC.m */; };
+		3BAF03E315EE79F00014F6A6 /* RouteMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03E215EE79F00014F6A6 /* RouteMapVC.m */; };
+		3BAF03E515EE7A140014F6A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03E415EE7A140014F6A6 /* MapKit.framework */; };
+		3BAF03E715EE7A1D0014F6A6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03E615EE7A1D0014F6A6 /* CoreLocation.framework */; };
+		3BAF03E915EE7A350014F6A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF03E815EE7A350014F6A6 /* QuartzCore.framework */; };
+		3BAF03EC15EE7A8A0014F6A6 /* BusRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03EB15EE7A890014F6A6 /* BusRoute.m */; };
+		3BAF03EF15EE7A9B0014F6A6 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03EE15EE7A9B0014F6A6 /* Annotation.m */; };
+		3BAF03F215EE7B180014F6A6 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF03F115EE7B180014F6A6 /* BusStop.m */; };
+		3BAF03F415EE7E4F0014F6A6 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03F315EE7E4F0014F6A6 /* star@2x.png */; };
+		3BAF03F615EE7E840014F6A6 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03F515EE7E840014F6A6 /* house@2x.png */; };
+		3BAF03F815EE7EA00014F6A6 /* eject@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03F715EE7EA00014F6A6 /* eject@2x.png */; };
+		3BAF03FC15EE7ED40014F6A6 /* eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03F915EE7ED40014F6A6 /* eject.png */; };
+		3BAF03FD15EE7ED40014F6A6 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03FA15EE7ED40014F6A6 /* house.png */; };
+		3BAF03FE15EE7ED40014F6A6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF03FB15EE7ED40014F6A6 /* star.png */; };
+		3BAF040415EE87180014F6A6 /* UIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF040315EE87180014F6A6 /* UIMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B8E62AB15F098BF006A54B3 /* DataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLayer.h; sourceTree = "<group>"; };
+		3B8E62AC15F098BF006A54B3 /* DataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLayer.m; sourceTree = "<group>"; };
+		3BAF03A415EE71140014F6A6 /* Hopon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hopon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAF03A815EE71140014F6A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BAF03AA15EE71140014F6A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BAF03AC15EE71140014F6A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BAF03B015EE71140014F6A6 /* Hopon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hopon-Info.plist"; sourceTree = "<group>"; };
+		3BAF03B215EE71140014F6A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAF03B415EE71140014F6A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BAF03B615EE71140014F6A6 /* Hopon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hopon-Prefix.pch"; sourceTree = "<group>"; };
+		3BAF03B715EE71140014F6A6 /* HoponAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoponAppDelegate.h; sourceTree = "<group>"; };
+		3BAF03B815EE71140014F6A6 /* HoponAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoponAppDelegate.m; sourceTree = "<group>"; };
+		3BAF03BB15EE71140014F6A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3BAF03D215EE792D0014F6A6 /* HoponVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoponVC.h; sourceTree = "<group>"; };
+		3BAF03D315EE792D0014F6A6 /* HoponVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoponVC.m; sourceTree = "<group>"; };
+		3BAF03D515EE79590014F6A6 /* YourLocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourLocationVC.h; sourceTree = "<group>"; };
+		3BAF03D615EE79590014F6A6 /* YourLocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourLocationVC.m; sourceTree = "<group>"; };
+		3BAF03D815EE79720014F6A6 /* DestinationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationVC.h; sourceTree = "<group>"; };
+		3BAF03D915EE79720014F6A6 /* DestinationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationVC.m; sourceTree = "<group>"; };
+		3BAF03DB15EE799B0014F6A6 /* BusListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusListVC.h; sourceTree = "<group>"; };
+		3BAF03DC15EE799B0014F6A6 /* BusListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BusListVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3BAF03DE15EE79C30014F6A6 /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		3BAF03DF15EE79C30014F6A6 /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		3BAF03E115EE79F00014F6A6 /* RouteMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteMapVC.h; sourceTree = "<group>"; };
+		3BAF03E215EE79F00014F6A6 /* RouteMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteMapVC.m; sourceTree = "<group>"; };
+		3BAF03E415EE7A140014F6A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3BAF03E615EE7A1D0014F6A6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BAF03E815EE7A350014F6A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BAF03EA15EE7A890014F6A6 /* BusRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusRoute.h; sourceTree = "<group>"; };
+		3BAF03EB15EE7A890014F6A6 /* BusRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusRoute.m; sourceTree = "<group>"; };
+		3BAF03ED15EE7A9B0014F6A6 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		3BAF03EE15EE7A9B0014F6A6 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		3BAF03F015EE7B180014F6A6 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		3BAF03F115EE7B180014F6A6 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		3BAF03F315EE7E4F0014F6A6 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		3BAF03F515EE7E840014F6A6 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		3BAF03F715EE7EA00014F6A6 /* eject@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eject@2x.png"; sourceTree = "<group>"; };
+		3BAF03F915EE7ED40014F6A6 /* eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eject.png; sourceTree = "<group>"; };
+		3BAF03FA15EE7ED40014F6A6 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		3BAF03FB15EE7ED40014F6A6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		3BAF040215EE87180014F6A6 /* UIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMapViewController.h; sourceTree = "<group>"; };
+		3BAF040315EE87180014F6A6 /* UIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAF03A115EE71140014F6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF03E915EE7A350014F6A6 /* QuartzCore.framework in Frameworks */,
+				3BAF03E715EE7A1D0014F6A6 /* CoreLocation.framework in Frameworks */,
+				3BAF03E515EE7A140014F6A6 /* MapKit.framework in Frameworks */,
+				3BAF03A915EE71140014F6A6 /* UIKit.framework in Frameworks */,
+				3BAF03AB15EE71140014F6A6 /* Foundation.framework in Frameworks */,
+				3BAF03AD15EE71140014F6A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BAF039915EE71140014F6A6 = {
+			isa = PBXGroup;
+			children = (
+				3BAF03E815EE7A350014F6A6 /* QuartzCore.framework */,
+				3BAF03E615EE7A1D0014F6A6 /* CoreLocation.framework */,
+				3BAF03E415EE7A140014F6A6 /* MapKit.framework */,
+				3BAF03AE15EE71140014F6A6 /* Hopon */,
+				3BAF03A715EE71140014F6A6 /* Frameworks */,
+				3BAF03A515EE71140014F6A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAF03A515EE71140014F6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03A415EE71140014F6A6 /* Hopon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAF03A715EE71140014F6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03A815EE71140014F6A6 /* UIKit.framework */,
+				3BAF03AA15EE71140014F6A6 /* Foundation.framework */,
+				3BAF03AC15EE71140014F6A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BAF03AE15EE71140014F6A6 /* Hopon */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03C715EE71870014F6A6 /* Views */,
+				3BAF03C615EE71740014F6A6 /* VCs */,
+				3BAF03C515EE71680014F6A6 /* Models */,
+				3BAF03BA15EE71140014F6A6 /* MainStoryboard.storyboard */,
+				3BAF03AF15EE71140014F6A6 /* Supporting Files */,
+			);
+			path = Hopon;
+			sourceTree = "<group>";
+		};
+		3BAF03AF15EE71140014F6A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03F915EE7ED40014F6A6 /* eject.png */,
+				3BAF03FA15EE7ED40014F6A6 /* house.png */,
+				3BAF03FB15EE7ED40014F6A6 /* star.png */,
+				3BAF03F515EE7E840014F6A6 /* house@2x.png */,
+				3BAF03F715EE7EA00014F6A6 /* eject@2x.png */,
+				3BAF03F315EE7E4F0014F6A6 /* star@2x.png */,
+				3BAF03B715EE71140014F6A6 /* HoponAppDelegate.h */,
+				3BAF03B815EE71140014F6A6 /* HoponAppDelegate.m */,
+				3BAF03B015EE71140014F6A6 /* Hopon-Info.plist */,
+				3BAF03B115EE71140014F6A6 /* InfoPlist.strings */,
+				3BAF03B415EE71140014F6A6 /* main.m */,
+				3BAF03B615EE71140014F6A6 /* Hopon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BAF03C515EE71680014F6A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E62AB15F098BF006A54B3 /* DataLayer.h */,
+				3B8E62AC15F098BF006A54B3 /* DataLayer.m */,
+				3BAF03ED15EE7A9B0014F6A6 /* Annotation.h */,
+				3BAF03EE15EE7A9B0014F6A6 /* Annotation.m */,
+				3BAF03EA15EE7A890014F6A6 /* BusRoute.h */,
+				3BAF03EB15EE7A890014F6A6 /* BusRoute.m */,
+				3BAF03F015EE7B180014F6A6 /* BusStop.h */,
+				3BAF03F115EE7B180014F6A6 /* BusStop.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3BAF03C615EE71740014F6A6 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03CE15EE723A0014F6A6 /* Hopon */,
+				3BAF03CC15EE721B0014F6A6 /* YourLocation */,
+				3BAF03CB15EE72060014F6A6 /* Destination */,
+				3BAF03C915EE71E20014F6A6 /* BusList */,
+				3BAF03C815EE71C90014F6A6 /* _Base */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		3BAF03C715EE71870014F6A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3BAF03C815EE71C90014F6A6 /* _Base */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF040215EE87180014F6A6 /* UIMapViewController.h */,
+				3BAF040315EE87180014F6A6 /* UIMapViewController.m */,
+			);
+			name = _Base;
+			sourceTree = "<group>";
+		};
+		3BAF03C915EE71E20014F6A6 /* BusList */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03CA15EE71F20014F6A6 /* RouteMap */,
+				3BAF03DB15EE799B0014F6A6 /* BusListVC.h */,
+				3BAF03DC15EE799B0014F6A6 /* BusListVC.m */,
+			);
+			name = BusList;
+			sourceTree = "<group>";
+		};
+		3BAF03CA15EE71F20014F6A6 /* RouteMap */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03E115EE79F00014F6A6 /* RouteMapVC.h */,
+				3BAF03E215EE79F00014F6A6 /* RouteMapVC.m */,
+			);
+			name = RouteMap;
+			sourceTree = "<group>";
+		};
+		3BAF03CB15EE72060014F6A6 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03D815EE79720014F6A6 /* DestinationVC.h */,
+				3BAF03D915EE79720014F6A6 /* DestinationVC.m */,
+			);
+			name = Destination;
+			sourceTree = "<group>";
+		};
+		3BAF03CC15EE721B0014F6A6 /* YourLocation */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03CD15EE722A0014F6A6 /* About */,
+				3BAF03D515EE79590014F6A6 /* YourLocationVC.h */,
+				3BAF03D615EE79590014F6A6 /* YourLocationVC.m */,
+			);
+			name = YourLocation;
+			sourceTree = "<group>";
+		};
+		3BAF03CD15EE722A0014F6A6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03DE15EE79C30014F6A6 /* AboutVC.h */,
+				3BAF03DF15EE79C30014F6A6 /* AboutVC.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		3BAF03CE15EE723A0014F6A6 /* Hopon */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF03D215EE792D0014F6A6 /* HoponVC.h */,
+				3BAF03D315EE792D0014F6A6 /* HoponVC.m */,
+			);
+			name = Hopon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAF03A315EE71140014F6A6 /* Hopon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAF03C215EE71140014F6A6 /* Build configuration list for PBXNativeTarget "Hopon" */;
+			buildPhases = (
+				3BAF03A015EE71140014F6A6 /* Sources */,
+				3BAF03A115EE71140014F6A6 /* Frameworks */,
+				3BAF03A215EE71140014F6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hopon;
+			productName = Hopon;
+			productReference = 3BAF03A415EE71140014F6A6 /* Hopon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAF039B15EE71140014F6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Hopon;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3BAF039E15EE71140014F6A6 /* Build configuration list for PBXProject "Hopon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BAF039915EE71140014F6A6;
+			productRefGroup = 3BAF03A515EE71140014F6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAF03A315EE71140014F6A6 /* Hopon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAF03A215EE71140014F6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF03B315EE71140014F6A6 /* InfoPlist.strings in Resources */,
+				3BAF03BC15EE71140014F6A6 /* MainStoryboard.storyboard in Resources */,
+				3BAF03F415EE7E4F0014F6A6 /* star@2x.png in Resources */,
+				3BAF03F615EE7E840014F6A6 /* house@2x.png in Resources */,
+				3BAF03F815EE7EA00014F6A6 /* eject@2x.png in Resources */,
+				3BAF03FC15EE7ED40014F6A6 /* eject.png in Resources */,
+				3BAF03FD15EE7ED40014F6A6 /* house.png in Resources */,
+				3BAF03FE15EE7ED40014F6A6 /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAF03A015EE71140014F6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF03B515EE71140014F6A6 /* main.m in Sources */,
+				3BAF03B915EE71140014F6A6 /* HoponAppDelegate.m in Sources */,
+				3BAF03D415EE792D0014F6A6 /* HoponVC.m in Sources */,
+				3BAF03D715EE79590014F6A6 /* YourLocationVC.m in Sources */,
+				3BAF03DA15EE79720014F6A6 /* DestinationVC.m in Sources */,
+				3BAF03DD15EE799B0014F6A6 /* BusListVC.m in Sources */,
+				3BAF03E015EE79C30014F6A6 /* AboutVC.m in Sources */,
+				3BAF03E315EE79F00014F6A6 /* RouteMapVC.m in Sources */,
+				3BAF03EC15EE7A8A0014F6A6 /* BusRoute.m in Sources */,
+				3BAF03EF15EE7A9B0014F6A6 /* Annotation.m in Sources */,
+				3BAF03F215EE7B180014F6A6 /* BusStop.m in Sources */,
+				3BAF040415EE87180014F6A6 /* UIMapViewController.m in Sources */,
+				3B8E62AD15F098BF006A54B3 /* DataLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BAF03B115EE71140014F6A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF03B215EE71140014F6A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BAF03BA15EE71140014F6A6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAF03BB15EE71140014F6A6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BAF03C015EE71140014F6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BAF03C115EE71140014F6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BAF03C315EE71140014F6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hopon/Hopon-Prefix.pch";
+				INFOPLIST_FILE = "Hopon/Hopon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BAF03C415EE71140014F6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hopon/Hopon-Prefix.pch";
+				INFOPLIST_FILE = "Hopon/Hopon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAF039E15EE71140014F6A6 /* Build configuration list for PBXProject "Hopon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF03C015EE71140014F6A6 /* Debug */,
+				3BAF03C115EE71140014F6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAF03C215EE71140014F6A6 /* Build configuration list for PBXNativeTarget "Hopon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAF03C315EE71140014F6A6 /* Debug */,
+				3BAF03C415EE71140014F6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BAF039B15EE71140014F6A6 /* Project object */;
+}
